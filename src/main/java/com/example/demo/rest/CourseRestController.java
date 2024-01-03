@@ -48,6 +48,7 @@ public class CourseRestController {
 
 	@DeleteMapping("/course/{id}")
 	public ResponseEntity<String> deleteCourse(@PathVariable Integer id){
+		System.out.println("hi");
 		String status=courseService.deleteById(id);
 		return new ResponseEntity<>(status, HttpStatus.OK);
 	}
