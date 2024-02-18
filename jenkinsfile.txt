@@ -7,4 +7,8 @@ Harikrishna hr
 
 
 a
+
+System.our.println("hi",1);
+
 System.our.println("hi",3);
+
